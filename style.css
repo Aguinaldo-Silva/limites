@@ -1,0 +1,242 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+:root{
+    font-size: 62.5%;
+    font-family: Mulish;
+    --color-background: linear-gradient(134deg, #343193 0%, #302C63 100%);
+    --color-h1: #B52184;
+}
+
+#page{
+   min-width: 43rem;
+    margin: 0 auto;
+}
+
+header{
+    text-align: center;
+    padding-bottom: 9.3rem;
+    background: #F9F4FB;
+
+}
+
+header h1{
+    color: var(--color-h1);
+
+    font-family: Mulish;
+    font-size: 3.2rem;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+
+header p{
+    color: #312D64;
+    font-size: 2rem;
+    font-style: normal;
+  
+    font-weight: 600;
+    line-height: normal;    
+    padding-bottom: 3.5rem;
+}
+
+header .astro{
+    width: 100%;
+    
+}
+
+main{
+    background:var(--color-background);
+}
+
+
+.card{
+   background: #FFF;
+   border-radius: 1.9rem;
+   padding: 2.6rem 2.6rem;
+   
+   
+   
+    
+}
+
+.card img{
+    margin-bottom: 3.3rem;
+}
+
+.card h2{
+    color: #B52184; 
+    font-family: Mulish;
+    font-size: 2.9rem;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+
+.card p{
+    color: #312D64;
+   
+    font-family: Mulish;
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    }
+
+.images{
+    display: flex;
+    flex-direction: column;
+    padding:5.2rem;
+    gap: 7.6rem;
+   
+}
+
+section{
+    background: #F9F4FB;
+    
+}
+
+section h2{
+    color: var(--color-h1);
+
+    font-family: Mulish;
+    font-size: 3.2rem;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+   padding: 7.8rem 0 0 4rem;
+}
+
+fieldset{
+    display: flex;
+    flex-direction: column;
+    gap: 2.4rem;
+    border: 0;
+    margin: 4rem 4rem;
+   
+}
+
+
+.input-wrapper input{
+    border-radius: 1.6rem;
+    width: 34rem;
+    padding: 1.6rem;
+    color: #312D64;
+  
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 100%; 
+    
+}
+.input-wrapper ::placeholder{
+    color: #312D64;
+  
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 100%; 
+
+}
+
+.input-wrapper textarea{
+    width: 34rem;
+    height: 12rem;
+    padding: 1.6rem;
+    border-radius: 1.6rem;
+}
+
+button{
+    border-radius: 1.6rem;
+background: linear-gradient(134deg, #343193 0%, #302C63 100%);
+padding: 1.6rem;
+margin: 0rem 0 7.5rem 4.3rem;
+border: 0;
+color: white;
+    
+
+}
+
+
+
+footer{
+    background: var(--color-background);
+    text-align: center;
+}
+
+footer p{
+    padding: 3.2rem;
+    color: white;
+}
+
+
+
+@media(min-width: 1300px){
+
+ header{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+    
+ }
+
+ header .astro{
+    max-width: 70rem;
+ }
+
+
+ header .titulo{
+    padding-left: 10rem;
+    text-align: left;
+
+ }
+
+ header .seta{
+    padding-top: 17rem;
+  
+    
+
+ }
+
+.images{
+    display: flex;
+    justify-content: space-between;
+
+
+}
+
+
+
+.images{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.card{
+    color: #312D64;
+    width: 36rem;
+
+ 
+ 
+}
+
+.card h2{
+    margin-bottom: 2.4rem;
+}
+
+
+
+
+.stars{
+    position: fixed;
+    
+    width: 100%;
+}
+
+
+}
